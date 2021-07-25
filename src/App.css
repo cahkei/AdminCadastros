@@ -1,0 +1,180 @@
+.navbar + main {
+  margin-left: 40px;
+}
+
+.navbar.active + main {
+  margin-left: 200px;
+}
+
+main {
+  padding: 40px 80px;
+}
+
+main header {
+  align-items: center;
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+}
+
+main header h1 {
+  font-size: 20px;
+  color: #666;
+}
+
+main table {
+  margin-top: 20px;
+  width: 100%;
+}
+
+main table thead {
+  width: 100%;
+}
+
+main table thead tr {
+  background: #7fd142;
+}
+
+main table thead tr th {
+  color: #fff;
+  padding: 8px;
+  text-align: left;
+}
+
+main table thead tr th:first-child {
+  border-radius: 6px 0 0 0;
+}
+
+main table thead tr th:last-child {
+  border-radius: 0 6px 0 0;
+}
+
+main table tbody tr td {
+  color: #333;
+  padding: 12px 8px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+main table tbody tr:nth-child(even) {
+  background: #f9f9f9;
+}
+
+main table tbody tr td:first-child {
+  border-left: 2px solid #7fd142;
+}
+
+main table tbody tr td:last-child {
+  border-right: 2px solid #7fd142;
+}
+
+main table {
+  border-radius: 0 2px;
+  border-bottom: 3px solid #7fd142;
+}
+
+main .empty {
+  margin-top: 40px;
+}
+
+main .empty > div {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+main .empty p {
+  color: #3f3d56;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+main .empty svg {
+  width: 450px;
+}
+
+main form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+  width: 400px;
+}
+
+main form input {
+  border: 2px solid #bbb;
+  border-radius: 4px;
+  padding: 8px 12px;
+}
+
+main form input:focus {
+  border-color: #7fd142;
+  outline: none;
+}
+
+main button {
+  background: #7fd142;
+  border: none;
+  border-radius: 5px;
+  color: #fff; 
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 8px 22px;
+}
+
+main button:hover {
+  opacity: 0.7;
+}
+
+.homehead {
+  color: #666;
+}
+
+.noSales {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.noSales svg{
+  width: 450px;
+}
+
+.noSales p{
+  color: #3f3d56;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+footer {
+  background: #f6f6f6;
+  border-top: 1px solid #eee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  color: #3f3d56;
+  font-size: 12px;
+}
+
+footer a {
+  color: #3f3d56;
+}
+
+footer a:hover {
+  opacity: .7;
+}
+
+footer svg {
+  font-size: 16px;
+}
