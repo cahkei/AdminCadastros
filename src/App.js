@@ -10,8 +10,7 @@ import Home from './Home/Home';
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 
 function App() {
@@ -42,10 +41,10 @@ function App() {
 
         <footer>
           <p>Feito por <strong>Camila Keiko</strong></p>
-          <a href="https://github.com/cahkei" target="_blank">
+          <a href="https://github.com/cahkei" target="_blank" rel="noreferrer">
             <IoLogoGithub></IoLogoGithub>
           </a>
-          <a href="https://www.linkedin.com/in/camilakeikomaeda/" target="_blank">
+          <a href="https://www.linkedin.com/in/camilakeikomaeda/" target="_blank" rel="noreferrer">
             <IoLogoLinkedin></IoLogoLinkedin>
           </a>
         </footer>

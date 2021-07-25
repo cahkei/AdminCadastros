@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import { HiUsers,  HiHome, HiShoppingCart } from 'react-icons/hi';
 
 const SidebarData = [
